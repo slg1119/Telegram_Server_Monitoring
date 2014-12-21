@@ -8,6 +8,5 @@ Telegram_Server_Monitoring
 4. Move 'server.lua' at telegram-cli folder
 
 example)
-mv server ~/
-mv server.lua ~/tg/
+mv server ~/ && mv server.lua ~/tg/
 
