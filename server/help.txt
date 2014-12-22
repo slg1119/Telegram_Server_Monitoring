@@ -1,0 +1,4 @@
+stats: Show Server stats.
+ping: ping to 8.8.8.8
+process: Show process on Server
+who: Show Login user
