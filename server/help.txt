@@ -1,4 +1,5 @@
 stats: Show Server stats.
-ping: ping to 8.8.8.8
+ping + IP = ping to IP
 process: Show process on Server
 who: Show Login user
+cmd (+ command + option): execute command (+ option)

@@ -1,5 +1,4 @@
 ping_cmd = "sh /home/Username/server/ping.sh"
-ls_cmd = "sh /home/Username/server/ls.sh"
 cmd_cmd = "sh /home/Username/server/cmd.sh"
 function split(str)
         local arg_1st=""
@@ -48,11 +47,6 @@ function on_msg_receive (msg)
    end
     if ( msg.text == 'help' ) then
        send_text(msg.from.print_name, '/home/Username/server/help.txt', ok_cb, false)
-      return
-   end
-    if ( cmd == "ls" ) then
-      local t = os.execute(ls_cmd .. arg)
-      send_text(msg.from.print_name, '/home/Username/server/ls.txt', ok_cb, false)
       return
    end
     if ( cmd == "cmd" ) then
