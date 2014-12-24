@@ -1,5 +1,2 @@
 stats: Show Server stats.
-ping + IP = ping to IP
-process: Show process on Server
-who: Show Login user
 cmd (+ command + option): execute command (+ option)
