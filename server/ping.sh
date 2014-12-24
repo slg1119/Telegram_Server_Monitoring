@@ -1,3 +1,3 @@
 #!/bin/sh
-
-ping -c4 8.8.8.8 | grep packets
+PING=`ping -c5 $1 | grep packets`
+echo $PING > /home/Username/server/ping.txt
